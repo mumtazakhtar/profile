@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Profile</title>
+    <title>Mumtaz Mohammed's Profile</title>
     <link rel="stylesheet" href="style.css">
     <!-- for connecting with third parties -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
@@ -13,64 +13,76 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="container">
-      <div class="card">
-        <h1>Hello! I'm Mumtaz!</h1>
-        <img src="images/profilepic.jpg" class="img-circle" alt="profilepic" height="150px" width="150px">
-      </div>
 
-      <div class="card">
-        <h2>About Me</h2>
-        <p>I am an Engineering graduate who wants to start career as a web developer.I love building  web apps which are user-friendly and beautiful!</p>
-        <a href="https://github.com/mumtazakhtar/FlyHigh" class="project_btn">My project</a>
-      </div>
-
-      <div class="card">
-        <span class="fa-solid fa-user-graduate"></span>
-        <h2>Education</h2>
-        <p>2012-2016</p>
-        <p>Bachelors of Technology</p>
-        <p>Jawaharlal Nehru Technological university</p>
-      </div>
-
-      <div class="card">
-        <h2>Experience</h2>
-        <p>Full stack bootcamp</p>
-        <p>I am currently enrolled in a bootcamp with LE WAGON</p>
-        <i class="fa-solid fa-wand-magic-sparkles"></i>
-        <h3>Skills</h3>
+    <div class="container" id="banner">
+      <!-- Nav bar -->
+      <div class="navbar">
         <ul>
-          <li>HTML |</li>
-          <li>CSS |</li>
-          <li>JAVASCRIPT |</li>
-          <li>RUBY |</li>
-          <li>SQL</li>
+          <li>Home</li>
+          <li>About</li>
+          <li>Projects</li>
+          <li>Contact</li>
         </ul>
       </div>
-
-      <div class="card">
-        <h3>Follow Me!</h3>
-        <li>
-          <a href="" target="_blank">
-            <i data-feather="facebook"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/mumtazakhtar" target="_blank">
-            <i data-feather="github"></i>&nbsp;
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/mumtaz-begum-mohammed/" target="_blank">
-            <i data-feather="linkedin"></i>
-          </a>
-        </li>
+      <div>
+        <h2>HI! I am Mohammed Mumtaz.</h2>
+        <img src="images/profilepic.jpg" class="profile_pic">
+        <h2>I am a Web developer!</h2>
       </div>
     </div>
 
-    <script>
-      feather.replace()
-    </script>
+    <!-- About me  -->
+    <div class="container">
+      <h1>About me!</h1>
+      <p>I am an Engineering graduate who has a passion for IT.I like developing web applications that look beautiful and responsive!<br>
+        I completed a full-stack web development bootcamp at Le wagon in Feb 2023 <br> and looking for opportunities to start my career in the same :)
+        Currently working as a TA at Le Wagon.
+      </p>
+    </div>
+
+    <!-- Projects -->
+    <div class=" container projects">
+      <h1>My Projects</h1>
+      <div class="cards">
+        <div class="card">
+          <img src="images/taste_dont_waste.png">
+          <p>The objective of this project is to help users find a recipe with the ingredients they have and thus no waste!You can also create your own recipe and save it in your cookbook!
+          </p>
+          <a class="btn" href="https://taste-dont-waste.herokuapp.com/" target="bal
+          ">Go to website</a>
+        </div>
+        <div class="card">
+          <img src="images/marebnb_home.png">
+          <p>
+            The objective of this project is to help users to rent a horse!You can also put your horse for renting by signing in to marebnb!
+          </p>
+          <a class="btn" href="https://github.com/mumtazakhtar/marebnb" target="blank">Look at code</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- connect with me -->
+    <div class="container social_media">
+      <h1>Connect with me!</h1>
+      <a href="https://github.com/mumtazakhtar" target="blank">
+        <i class="fa-brands fa-github fa-shake"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/mohammed-mumtaz/" target="blank">
+        <i class="fa-brands fa-linkedin fa-shake"></i>
+      </a>
+    </div>
+
+    <!-- footer -->
+    <div class="container footer">
+      <h2>Contact</h2>
+      <ul>
+        <li>Address: Amstelveen</li>
+        <li>Email id: mumtazmohammed08@gmail.com</li>
+        <li>Phone number: +31687628350</li>
+      </ul>
+      <p>Made with <i class="fas fa-heart"></i> by myself</p>
+    </div>
+
 
   </body>
 </html>
