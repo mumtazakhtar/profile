@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+  font-family: cursive;
+}
 .container {
   border: 1px solid rgb(235,235,235);
   margin-top: 22px;
@@ -5,8 +9,15 @@
 li {
   list-style: none;
 }
+a {
+  text-decoration: none;
+  color: white;
+}
+.namecard h2{
+  background-color: black;
+}
 #banner {
-  background-image: url("images/banner3.jpg");
+  background-image: url("images/banner.jpg");
   margin-top: 4px;
   color: white;
   background-size: cover;
@@ -24,13 +35,13 @@ li {
 }
 div{
   text-align: center;
-  
 }
 .profile_pic{
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
 }
+
 .btn {
   padding: 8px;
   background-color: black;
@@ -49,11 +60,18 @@ div{
 }
 .card {
   border: 1px solid rgb(235,235,235);
+  padding: 22px;
 }
 i {
   color: black;
   margin: 16px;
   font-size: 40px;
+}
+.skills i {
+  font-size: 20px;
+}
+.skills img {
+  width: 28px;
 }
 .footer .fa-heart {
   color: #D23333;

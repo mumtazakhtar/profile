@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="style.css">
     <!-- for connecting with third parties -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
-    <script src="https://unpkg.com/feather-icons"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   </head>
@@ -18,30 +17,30 @@
       <!-- Nav bar -->
       <div class="navbar">
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <a href="index.html"><li>Home</li></a>
+          <a href="#about"><li>About</li></a>
+          <a href="#projects"><li>Projects</li></a>
+          <a href="#education"><li>Education</li></a>
+          <a href="#contact"><li>Contact</li></a>
         </ul>
       </div>
-      <div>
-        <h2>HI! I am Mohammed Mumtaz.</h2>
-        <img src="images/profilepic.jpg" class="profile_pic">
-        <h2>I am a Web developer!</h2>
+      <div class="namecard">
+        <h2>Hi! I am Mohammed Mumtaz</h2>
+        <img src="images/profile_pic.jpeg" class="profile_pic">
+        <h2>I am a Web developer & TA at Le Wagon!</h2>
       </div>
     </div>
 
     <!-- About me  -->
-    <div class="container">
+    <div class="container" id="about">
       <h1>About me!</h1>
-      <p>I am an Engineering graduate who has a passion for IT.I like developing web applications that look beautiful and responsive!<br>
-        I completed a full-stack web development bootcamp at Le wagon in Feb 2023 <br> and looking for opportunities to start my career in the same :)
-        Currently working as a TA at Le Wagon.
-      </p>
+      <p>I am an Engineering graduate who has a passion for IT. I like developing web applications that look beautiful and responsive!</p>
+      <p>I completed a full-stack web development bootcamp at Le wagon in Feb 2023 and looking for opportunities to start my career in the same.</p>
+      <p>*Currently working as a TA at Le Wagon*</p>
     </div>
 
     <!-- Projects -->
-    <div class=" container projects">
+    <div class=" container" id="projects">
       <h1>My Projects</h1>
       <div class="cards">
         <div class="card">
@@ -61,8 +60,27 @@
       </div>
     </div>
 
+    <!-- Education -->
+    <div class="container" id="education">
+      <h1>Education</h1>
+      <h3>Bachelors of Technology<span>(2012-2016)</span></h3>
+      <p>Percentage: 77%</p>
+    </div>
+
+    <!-- Skills -->
+    <div class="container skills">
+      <h1>Skills</h1>
+      <i class="fa-brands fa-html5"></i>
+      <i class="fa-brands fa-css3"></i>
+      <i class="fa-brands fa-js"></i>
+      <i class="fa-brands fa-git"></i>
+      <i><img src="images/ruby_icon.svg"></i>
+      <i><img src="images/rails_icon.svg"></i>
+      <i><img src="images/sql_icon.png"></i>
+    </div>
+
     <!-- connect with me -->
-    <div class="container social_media">
+    <div class="container social_media" id="contact">
       <h1>Connect with me!</h1>
       <a href="https://github.com/mumtazakhtar" target="blank">
         <i class="fa-brands fa-github fa-shake"></i>
@@ -80,9 +98,9 @@
         <li>Email id: mumtazmohammed08@gmail.com</li>
         <li>Phone number: +31687628350</li>
       </ul>
-      <p>Made with <i class="fas fa-heart"></i> by myself</p>
+      <p>***I have my work permit and I dont need a sponsorship***</p>
+      <p>Made with <i class="fas fa-heart"></i> by myself <i class="fa-sharp fa-solid fa-face-smile-hearts"></i></p>
     </div>
-
 
   </body>
 </html>
