@@ -80,3 +80,18 @@ i {
 .footer li {
   text-align: center;
 }
+@media only screen and (max-width: 600px) {
+  .navbar li {
+    display: inline;
+    margin: 8px;
+    font-size: 14px;
+  }
+  .cards {
+    border: black 1px;
+    padding: 18px;
+    display: contents;
+  }
+  .card {
+    padding: 12px;
+  }
+}
